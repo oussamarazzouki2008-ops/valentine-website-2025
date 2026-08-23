@@ -70,7 +70,7 @@ const CONFIG = {
     music: {
         enabled: true,
         autoplay: true,
-        musicUrl: "",
+        musicUrl: "https://files.catbox.moe/j3oh3r.mp3",
         startText: "🎵 Play Music",
         stopText: "🔇 Stop Music",
         volume: 0.5
