@@ -1,40 +1,84 @@
-// ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
+============================================
+// 💖 CUSTOMIZE YOUR VALENTINE'S WEBSITE
 // ============================================
 
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    // اسم صديقتك
+    valentineName: "Firdaouss",
 
-    // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    // عنوان الصفحة
+    pageTitle: "Pour ma vie Firdaouss 💕",
 
-    // Floating emojis that appear in the background
-    // Find more emojis at: https://emojipedia.org
+    // الرموز المائية
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '🫶🏻', '😻', '💗', '🌸'],
+        bears: ['😺', '✨']
     },
 
-    // Questions and answers
-    // Customize each question and its possible responses
+    // الأسئلة والرسائل بالدارجة بحروف فرنسية
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Ne3sti mqelqa lbareh... Kyn chi imkaniya nfarhek w nrsem dahka f wjhek lyouma? 🥺❤️",
+            yesBtn: "Ouiii 💕",
+            noBtn: "Non 🙈",
+            secretAnswer: "Knbghik bzaf a Firdaouss, koulshe ghady ikoun mzyan! ✨"
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Chhal d blassa wkhda f qalbi nti ? 💖",
+            startText: "Had lqadr kamel, w mazal ktr!",
+            nextBtn: "Suivant 💕"
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
+            text: "Dima tfakri: Ana hdaak f ay wqt. n9dr nchof dhyka dialk db ? 🥺👉👈",
+            yesBtn: "Ouiii ! 😊",
+            noBtn: "Non 😜"
+        }
+    },
+
+    // رسائل شريط الحب
+        loveMessages: {
+        extreme: "Nti hiyya kolchi andi , wfarhti hia tkoni nti frhanaa ... ✨💖",
+        high: "Dima ghadi nbqa fjnbk w m3ak f ay wqt... 🚀💖",
+        normal: "Knbghik bzaaf w qalbi w3inia n3tihom lik... 💕"
+    },
+
+    },
+
+    // الاحتفال الأخير
+    celebration: {
+        title: "hdchi drto ghi bch tfrhi hit mtstahlich tn3si m9l9a... ❤️",
+        message: "Ntmna had l'page sghira tkhfeff 3lik w tfrahk a hyati  . Knbghik bzaf! 💐✨",
+        emojis: "💖🎉💐✨👑❤️"
+    },
+
+    // ألوان الموقع
+    colors: {
+        backgroundStart: "#ffafbd",
+        backgroundEnd: "#ffc3a0",
+        buttonBackground: "#ff6b6b",
+        buttonHover: "#affb78",
+        textColor: "#ff4757"
+    },
+
+    // إعدادات الحركة
+    animations: {
+        floatDuration: "15s",
+        floatDistance: "50px",
+        bounceSpeed: "0.5s",
+        heartExplosionSize: 1.5
+    },
+
+    // إعدادات الموسيقى
+    music: {
+        enabled: true,
+        autoplay: true,
+        musicUrl: "",
+        startText: "🎵 Play Music",
+        stopText: "🔇 Stop Music",
+        volume: 0.5
+    }
+};
+/            yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
