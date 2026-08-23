@@ -19,13 +19,13 @@ const CONFIG = {
     questions: {
         first: {
             text: "Ne3sti mqelqa lbareh... Kyn chi imkaniya nfarhek w nrsem dahka f wjhek lyouma? 🥺❤️",
-            yesBtn: "Ouiii 💕",
+            yesBtn: " laa ",
             noBtn: "Non 🙈",
-            secretAnswer: "Knbghik bzaf a Firdaouss, koulshe ghady ikoun mzyan! ✨"
+            secretAnswer: "Ouiiiiiiiiiiiiiiiiiii💕✨"
         },
         second: {
-            text: "Chhal d blassa wkhda f qalbi nti ? 💖",
-            startText: "Had lqadr kamel, w mazal ktr!",
+            text: "wch 3arfa b3da 9dach knbghiik ? 💖",
+            startText: " ktrrrr mn haka!",
             nextBtn: "Suivant 💕"
         },
         third: {
