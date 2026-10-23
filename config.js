@@ -1,64 +1,68 @@
+
 // ============================================
-// 💖 CUSTOMIZE YOUR VALENTINE'S WEBSITE
+// 💗 HAJAR - A LETTER FROM MY HEART
 // ============================================
 
 const CONFIG = {
-    // اسم صديقتك
-    valentineName: "Firdaouss",
+
+    // اسمها
+    valentineName: "Hajar",
 
     // عنوان الصفحة
-    pageTitle: "Pour ma vie Firdaouss 💕",
+    pageTitle: "Sma7i lia Hajar ❤️",
 
-    // الرموز المائية
+    // القلوب والرموز المتحركة
     floatingEmojis: {
-        hearts: ['❤️', '🫶🏻', '😻', '💗', '🌸'],
-        bears: ['😺', '✨']
+        hearts: ['❤️', '🤍', '💗', '🌹', '🫶🏻'],
+        bears: ['🧸', '✨']
     },
 
-    // الأسئلة والرسائل بالدارجة بحروف فرنسية
+    // الأسئلة والرسائل
     questions: {
         first: {
-            text: "Ne3sti mqelqa lbareh... Kyn chi imkaniya nfarhek w nrsem dahka f wjhek lyouma? 🥺❤️",
-            yesBtn: " laa ",
-            noBtn: "Non 🙈",
-            secretAnswer: "Ouiiiiiiiiiiiiiiiiiii💕✨"
+            text: "Hajar, 3andi lik chi klam mn 9elbi... wach t9dri tsme3ini? 🥺❤️",
+            yesBtn: "Kansem3ek ❤️",
+            noBtn: "Mazal...",
+            secretAnswer: "Chokran 7it 3titi lklami wa9t... ❤️"
         },
+
         second: {
-            text: "wch 3arfa b3da 9dach knbghiik ? 💖",
-            startText: " ktrrrr mn haka!",
-            nextBtn: "Suivant 💕"
+            text: "Kat3arfi ch7al nadman 3la dakchi li w9e3 binatna? 🥺",
+            startText: "Bzaaaf... kter mn ma ttsawri ❤️",
+            nextBtn: "Kammli... 💗"
         },
+
         third: {
-            text: "Dima tfakri: Ana hdaak f ay wqt. n9dr nchof dhyka dialk db ? 🥺👉👈",
-            yesBtn: "Ouiii ! 😊",
-            noBtn: "Non 😜"
+            text: "Hajar, wach t9dri t3tini forsa nsla7 ghalti w nrje3 nbni thi9a binatna?",
+            yesBtn: "N7awlo mn jdid ❤️",
+            noBtn: "Kan7tarem 9rarak 🤍"
         }
     },
 
-    // رسائل شريط الحب
+    // رسائل الحب
     loveMessages: {
-        extreme: "Nti hiyya kolchi andi , wfarhti hia tkoni nti frhanaa ... ✨💖",
-        high: "Dima ghadi nbqa fjnbk w m3ak f ay wqt... 🚀💖",
-        normal: "Knbghik bzaaf w qalbi w3inia n3tihom lik... 💕"
+        extreme: "Hajar, nti insan 3ziz 3liya bzaf... ❤️🌹",
+        high: "Kanbghik, w kanbghi n3awed nbni dakchi li khssert... 🤍",
+        normal: "Sma7i lia 7it jre7tek b chi 7okm ma kanch f blasto... 💗"
     },
 
-    // الاحتفال الأخير
+    // الرسالة الأخيرة
     celebration: {
-        title: "hdchi drto ghi bch tfrhi hit mtstahlich tn3si m9l9a... ❤️",
-        message: "Ntmna had l'page sghira tkhfeff 3lik w tfrahk a hyati . Knbghik bzaf! 💐✨",
-        emojis: "💖🎉💐✨👑❤️"
+        title: "Hajar, sma7i lia mn 9elbi ❤️",
+        message: "Ma kanch 3andi l7e9 ntهمك b chi haja ma kantch s7i7a. Kan khassni nfhem 9bel ma n7kem, w nسمع lik 9bel ma nchak fik. Ma kanطلبش منك tnssay dakchi f nhar w lila, ghir bghitk t3arfi belli ana nadman bssa7. Kanbghik Hajar, w ila 3titini forsa, ghadi n7awel nwarik b l'af3al belli t3llmt mn ghalti. ❤️",
+        emojis: "❤️🌹🤍🫂💗✨"
     },
 
-    // ألوان الموقع
+    // الألوان
     colors: {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#affb78",
-        textColor: "#ff4757"
+        backgroundStart: "#fce4ec",
+        backgroundEnd: "#fff0e8",
+        buttonBackground: "#e87991",
+        buttonHover: "#d85d7a",
+        textColor: "#b94365"
     },
 
-    // إعدادات الحركة
+    // الحركات
     animations: {
         floatDuration: "15s",
         floatDistance: "50px",
@@ -66,7 +70,7 @@ const CONFIG = {
         heartExplosionSize: 1.5
     },
 
-    // إعدادات الموسيقى
+    // الموسيقى
     music: {
         enabled: true,
         autoplay: true,
@@ -75,6 +79,7 @@ const CONFIG = {
         stopText: "🔇 Stop Music",
         volume: 0.5
     }
+
 };
 
 window.VALENTINE_CONFIG = CONFIG;
